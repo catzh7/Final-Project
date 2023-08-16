@@ -11,6 +11,8 @@
 		B24AA9E32A8BE9B900C5B8FD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B24AA9E22A8BE9B900C5B8FD /* ContentView.swift */; };
 		B24AA9E52A8BE9BA00C5B8FD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B24AA9E42A8BE9BA00C5B8FD /* Assets.xcassets */; };
 		B24AA9E82A8BE9BA00C5B8FD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B24AA9E72A8BE9BA00C5B8FD /* Preview Assets.xcassets */; };
+		B266D0D82A8BF68500F828B2 /* mealGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B266D0D72A8BF68500F828B2 /* mealGenerator.swift */; };
+		B266D0DA2A8BF6DF00F828B2 /* mindfulness.swift in Sources */ = {isa = PBXBuildFile; fileRef = B266D0D92A8BF6DF00F828B2 /* mindfulness.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		B24AA9E22A8BE9B900C5B8FD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		B24AA9E42A8BE9BA00C5B8FD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B24AA9E72A8BE9BA00C5B8FD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B266D0D72A8BF68500F828B2 /* mealGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mealGenerator.swift; sourceTree = "<group>"; };
+		B266D0D92A8BF6DF00F828B2 /* mindfulness.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mindfulness.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +57,8 @@
 			children = (
 				B24AA9E02A8BE9B900C5B8FD /* Final_ProjectApp.swift */,
 				B24AA9E22A8BE9B900C5B8FD /* ContentView.swift */,
+				B266D0D92A8BF6DF00F828B2 /* mindfulness.swift */,
+				B266D0D72A8BF68500F828B2 /* mealGenerator.swift */,
 				B24AA9E42A8BE9BA00C5B8FD /* Assets.xcassets */,
 				B24AA9E62A8BE9BA00C5B8FD /* Preview Content */,
 			);
@@ -137,7 +143,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B266D0DA2A8BF6DF00F828B2 /* mindfulness.swift in Sources */,
 				B24AA9E32A8BE9B900C5B8FD /* ContentView.swift in Sources */,
+				B266D0D82A8BF68500F828B2 /* mealGenerator.swift in Sources */,
 				B24AA9E12A8BE9B900C5B8FD /* Final_ProjectApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
